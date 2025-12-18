@@ -1,2 +1,2 @@
-# Blink-It-Copy
-A copy of blink it
+# This is Blast! copy
+Hi this is a copy of This is Blast!
