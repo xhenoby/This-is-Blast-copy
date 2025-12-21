@@ -7,6 +7,7 @@ public class Ball : MonoBehaviour
     private void Start()
     {
         rdbd = GetComponent<Rigidbody>();
+        gameObject.SetActive(false);
     }
     private void OnTriggerEnter(Collider other)
     {

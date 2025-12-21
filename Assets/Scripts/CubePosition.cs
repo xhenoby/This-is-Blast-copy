@@ -3,12 +3,13 @@ using UnityEngine;
 
 public class CubePosition : MonoBehaviour
 {
-    public bool isBeingShoot;
-    public ColorEnum currentCubeColor;
-    public List<Cube> CubeList;
+    [HideInInspector] public bool isBeingShoot;
+    public ColorEnum currentCubeColor { get; private set; }
+    public List<Cube> CubeList { get; private set; }= new List<Cube>();
+    public Transform Content;
     public void BallHasHit()
     {
-        CubeList[0].DestroyCube();
+        CubeList[0].Hit();
         CubeList.RemoveAt(0);
         if (CubeList.Count > 0)
         {

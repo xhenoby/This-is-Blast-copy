@@ -18,13 +18,13 @@ public class BallShooter : MonoBehaviour
 
     private void Start()
     {
-        t = timeBetweemShoots;
-        if (CheckObjectivesEvent == null)
-        {
-            CheckObjectivesEvent = new UnityEvent();
-        }
-        CheckObjectivesEvent.AddListener(TriggerCoroutine);
-        TriggerCoroutine();
+        //t = timeBetweemShoots;
+        //if (CheckObjectivesEvent == null)
+        //{
+        //    CheckObjectivesEvent = new UnityEvent();
+        //}
+        //CheckObjectivesEvent.AddListener(TriggerCoroutine);
+        //TriggerCoroutine();
     }
     void TriggerCoroutine()
     {

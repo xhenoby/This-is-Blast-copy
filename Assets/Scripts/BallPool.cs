@@ -19,7 +19,7 @@ public class BallPool : MonoBehaviour
     {
         Ball newBall = Instantiate(BallPrefab, transform);
         newBall.pool = this;
-        BallPoolList.Add(newBall);
+        AddToPool(newBall);
         return newBall;
     }
     public void AddToPool(Ball LastBall)
