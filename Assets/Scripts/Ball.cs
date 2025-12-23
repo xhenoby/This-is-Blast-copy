@@ -4,6 +4,7 @@ public class Ball : MonoBehaviour
 {
     [HideInInspector] public BallPool pool;
     public Rigidbody rdbd { get; private set; }
+
     private void Start()
     {
         rdbd = GetComponent<Rigidbody>();

@@ -93,9 +93,9 @@ MonoBehaviour:
   m_Horizontal: 0
   m_Vertical: 1
   m_MovementType: 1
-  m_Elasticity: 0.1
+  m_Elasticity: 0
   m_Inertia: 1
-  m_DecelerationRate: 0.135
+  m_DecelerationRate: 0
   m_ScrollSensitivity: 1
   m_Viewport: {fileID: 1789201823802428187}
   m_HorizontalScrollbar: {fileID: 0}
@@ -249,6 +249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isBeingShoot: 0
+  currentCubeColor: 0
   Content: {fileID: 7898307325447046440}
 --- !u!65 &3405289651324994690
 BoxCollider:
